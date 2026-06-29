@@ -1,7 +1,12 @@
-lower = int(input("Please enter the lower bound: "))
-upper = int(input("Please enter the upper bound: "))
-theSum = 0
+using System;
 
-for number in range(lower, upper + 1):
-    theSum = theSum + number
-    print(theSum)
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
